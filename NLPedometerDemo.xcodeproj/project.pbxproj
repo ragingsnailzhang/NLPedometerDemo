@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA2DB65C20610A4D0063E9A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB65B20610A4D0063E9A1 /* AppDelegate.m */; };
+		CA2DB65F20610A4D0063E9A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB65E20610A4D0063E9A1 /* ViewController.m */; };
+		CA2DB66220610A4D0063E9A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2DB66020610A4D0063E9A1 /* Main.storyboard */; };
+		CA2DB66420610A4D0063E9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2DB66320610A4D0063E9A1 /* Assets.xcassets */; };
+		CA2DB66720610A4D0063E9A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2DB66520610A4D0063E9A1 /* LaunchScreen.storyboard */; };
+		CA2DB66A20610A4D0063E9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB66920610A4D0063E9A1 /* main.m */; };
+		CA2DB67420610A4E0063E9A1 /* NLPedometerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB67320610A4E0063E9A1 /* NLPedometerDemoTests.m */; };
+		CA2DB67F20610A4E0063E9A1 /* NLPedometerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB67E20610A4E0063E9A1 /* NLPedometerDemoUITests.m */; };
+		CA2DB68F20610B8C0063E9A1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2DB68E20610B8C0063E9A1 /* HealthKit.framework */; };
+		CA2DB692206110330063E9A1 /* NLHealthDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2DB691206110330063E9A1 /* NLHealthDataManager.m */; };
+		CA2F089C2061FEE600FADD47 /* NLStepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F089B2061FEE600FADD47 /* NLStepModel.m */; };
+		CB788483AB3ABC5ABB2E928E /* libPods-NLPedometerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF4198CF571C265B5667ADE /* libPods-NLPedometerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA2DB67020610A4E0063E9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2DB64F20610A4D0063E9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2DB65620610A4D0063E9A1;
+			remoteInfo = NLPedometerDemo;
+		};
+		CA2DB67B20610A4E0063E9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2DB64F20610A4D0063E9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2DB65620610A4D0063E9A1;
+			remoteInfo = NLPedometerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38CFEF47F839C76138BE3604 /* Pods-NLPedometerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLPedometerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NLPedometerDemo/Pods-NLPedometerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A287B1914A25200972FDE6CB /* Pods-NLPedometerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLPedometerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NLPedometerDemo/Pods-NLPedometerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CA2DB65720610A4D0063E9A1 /* NLPedometerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLPedometerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2DB65A20610A4D0063E9A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA2DB65B20610A4D0063E9A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA2DB65D20610A4D0063E9A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA2DB65E20610A4D0063E9A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA2DB66120610A4D0063E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA2DB66320610A4D0063E9A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA2DB66620610A4D0063E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA2DB66820610A4D0063E9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2DB66920610A4D0063E9A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA2DB66F20610A4E0063E9A1 /* NLPedometerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLPedometerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2DB67320610A4E0063E9A1 /* NLPedometerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLPedometerDemoTests.m; sourceTree = "<group>"; };
+		CA2DB67520610A4E0063E9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2DB67A20610A4E0063E9A1 /* NLPedometerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLPedometerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2DB67E20610A4E0063E9A1 /* NLPedometerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLPedometerDemoUITests.m; sourceTree = "<group>"; };
+		CA2DB68020610A4E0063E9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2DB68C20610B8C0063E9A1 /* NLPedometerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NLPedometerDemo.entitlements; sourceTree = "<group>"; };
+		CA2DB68E20610B8C0063E9A1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		CA2DB690206110330063E9A1 /* NLHealthDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHealthDataManager.h; sourceTree = "<group>"; };
+		CA2DB691206110330063E9A1 /* NLHealthDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHealthDataManager.m; sourceTree = "<group>"; };
+		CA2DB693206110EB0063E9A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CA2F089A2061FEE600FADD47 /* NLStepModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLStepModel.h; sourceTree = "<group>"; };
+		CA2F089B2061FEE600FADD47 /* NLStepModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLStepModel.m; sourceTree = "<group>"; };
+		CA2F08B72062471000FADD47 /* NLConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLConfiguration.h; sourceTree = "<group>"; };
+		DAF4198CF571C265B5667ADE /* libPods-NLPedometerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NLPedometerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2DB65420610A4D0063E9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2DB68F20610B8C0063E9A1 /* HealthKit.framework in Frameworks */,
+				CB788483AB3ABC5ABB2E928E /* libPods-NLPedometerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB66C20610A4E0063E9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB67720610A4E0063E9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1013EC032DE181DA0058D74D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38CFEF47F839C76138BE3604 /* Pods-NLPedometerDemo.debug.xcconfig */,
+				A287B1914A25200972FDE6CB /* Pods-NLPedometerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA2DB64E20610A4D0063E9A1 = {
+			isa = PBXGroup;
+			children = (
+				CA2DB65920610A4D0063E9A1 /* NLPedometerDemo */,
+				CA2DB67220610A4E0063E9A1 /* NLPedometerDemoTests */,
+				CA2DB67D20610A4E0063E9A1 /* NLPedometerDemoUITests */,
+				CA2DB65820610A4D0063E9A1 /* Products */,
+				CA2DB68D20610B8C0063E9A1 /* Frameworks */,
+				1013EC032DE181DA0058D74D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2DB65820610A4D0063E9A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DB65720610A4D0063E9A1 /* NLPedometerDemo.app */,
+				CA2DB66F20610A4E0063E9A1 /* NLPedometerDemoTests.xctest */,
+				CA2DB67A20610A4E0063E9A1 /* NLPedometerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2DB65920610A4D0063E9A1 /* NLPedometerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DB68C20610B8C0063E9A1 /* NLPedometerDemo.entitlements */,
+				CA2F089D2061FFE900FADD47 /* Model */,
+				CA2DB65A20610A4D0063E9A1 /* AppDelegate.h */,
+				CA2DB65B20610A4D0063E9A1 /* AppDelegate.m */,
+				CA2DB65D20610A4D0063E9A1 /* ViewController.h */,
+				CA2DB65E20610A4D0063E9A1 /* ViewController.m */,
+				CA2DB690206110330063E9A1 /* NLHealthDataManager.h */,
+				CA2DB691206110330063E9A1 /* NLHealthDataManager.m */,
+				CA2DB66020610A4D0063E9A1 /* Main.storyboard */,
+				CA2DB66320610A4D0063E9A1 /* Assets.xcassets */,
+				CA2DB66520610A4D0063E9A1 /* LaunchScreen.storyboard */,
+				CA2DB66820610A4D0063E9A1 /* Info.plist */,
+				CA2DB693206110EB0063E9A1 /* PrefixHeader.pch */,
+				CA2F08B72062471000FADD47 /* NLConfiguration.h */,
+				CA2DB66920610A4D0063E9A1 /* main.m */,
+			);
+			path = NLPedometerDemo;
+			sourceTree = "<group>";
+		};
+		CA2DB67220610A4E0063E9A1 /* NLPedometerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DB67320610A4E0063E9A1 /* NLPedometerDemoTests.m */,
+				CA2DB67520610A4E0063E9A1 /* Info.plist */,
+			);
+			path = NLPedometerDemoTests;
+			sourceTree = "<group>";
+		};
+		CA2DB67D20610A4E0063E9A1 /* NLPedometerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DB67E20610A4E0063E9A1 /* NLPedometerDemoUITests.m */,
+				CA2DB68020610A4E0063E9A1 /* Info.plist */,
+			);
+			path = NLPedometerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CA2DB68D20610B8C0063E9A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DB68E20610B8C0063E9A1 /* HealthKit.framework */,
+				DAF4198CF571C265B5667ADE /* libPods-NLPedometerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2F089D2061FFE900FADD47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA2F089A2061FEE600FADD47 /* NLStepModel.h */,
+				CA2F089B2061FEE600FADD47 /* NLStepModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2DB65620610A4D0063E9A1 /* NLPedometerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2DB68320610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemo" */;
+			buildPhases = (
+				C00248E1BEA94B6139904048 /* [CP] Check Pods Manifest.lock */,
+				CA2DB65320610A4D0063E9A1 /* Sources */,
+				CA2DB65420610A4D0063E9A1 /* Frameworks */,
+				CA2DB65520610A4D0063E9A1 /* Resources */,
+				DECD430871E1E64DA41108B1 /* [CP] Embed Pods Frameworks */,
+				B6CA2BF1CCFEA3D31624E5D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NLPedometerDemo;
+			productName = NLPedometerDemo;
+			productReference = CA2DB65720610A4D0063E9A1 /* NLPedometerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA2DB66E20610A4E0063E9A1 /* NLPedometerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2DB68620610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemoTests" */;
+			buildPhases = (
+				CA2DB66B20610A4E0063E9A1 /* Sources */,
+				CA2DB66C20610A4E0063E9A1 /* Frameworks */,
+				CA2DB66D20610A4E0063E9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2DB67120610A4E0063E9A1 /* PBXTargetDependency */,
+			);
+			name = NLPedometerDemoTests;
+			productName = NLPedometerDemoTests;
+			productReference = CA2DB66F20610A4E0063E9A1 /* NLPedometerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA2DB67920610A4E0063E9A1 /* NLPedometerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2DB68920610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemoUITests" */;
+			buildPhases = (
+				CA2DB67620610A4E0063E9A1 /* Sources */,
+				CA2DB67720610A4E0063E9A1 /* Frameworks */,
+				CA2DB67820610A4E0063E9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2DB67C20610A4E0063E9A1 /* PBXTargetDependency */,
+			);
+			name = NLPedometerDemoUITests;
+			productName = NLPedometerDemoUITests;
+			productReference = CA2DB67A20610A4E0063E9A1 /* NLPedometerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA2DB64F20610A4D0063E9A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yj_zhang;
+				TargetAttributes = {
+					CA2DB65620610A4D0063E9A1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					CA2DB66E20610A4E0063E9A1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA2DB65620610A4D0063E9A1;
+					};
+					CA2DB67920610A4E0063E9A1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA2DB65620610A4D0063E9A1;
+					};
+				};
+			};
+			buildConfigurationList = CA2DB65220610A4D0063E9A1 /* Build configuration list for PBXProject "NLPedometerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA2DB64E20610A4D0063E9A1;
+			productRefGroup = CA2DB65820610A4D0063E9A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2DB65620610A4D0063E9A1 /* NLPedometerDemo */,
+				CA2DB66E20610A4E0063E9A1 /* NLPedometerDemoTests */,
+				CA2DB67920610A4E0063E9A1 /* NLPedometerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2DB65520610A4D0063E9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2DB66720610A4D0063E9A1 /* LaunchScreen.storyboard in Resources */,
+				CA2DB66420610A4D0063E9A1 /* Assets.xcassets in Resources */,
+				CA2DB66220610A4D0063E9A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB66D20610A4E0063E9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB67820610A4E0063E9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6CA2BF1CCFEA3D31624E5D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NLPedometerDemo/Pods-NLPedometerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00248E1BEA94B6139904048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NLPedometerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECD430871E1E64DA41108B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NLPedometerDemo/Pods-NLPedometerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2DB65320610A4D0063E9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2DB65F20610A4D0063E9A1 /* ViewController.m in Sources */,
+				CA2F089C2061FEE600FADD47 /* NLStepModel.m in Sources */,
+				CA2DB692206110330063E9A1 /* NLHealthDataManager.m in Sources */,
+				CA2DB66A20610A4D0063E9A1 /* main.m in Sources */,
+				CA2DB65C20610A4D0063E9A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB66B20610A4E0063E9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2DB67420610A4E0063E9A1 /* NLPedometerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DB67620610A4E0063E9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2DB67F20610A4E0063E9A1 /* NLPedometerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA2DB67120610A4E0063E9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2DB65620610A4D0063E9A1 /* NLPedometerDemo */;
+			targetProxy = CA2DB67020610A4E0063E9A1 /* PBXContainerItemProxy */;
+		};
+		CA2DB67C20610A4E0063E9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2DB65620610A4D0063E9A1 /* NLPedometerDemo */;
+			targetProxy = CA2DB67B20610A4E0063E9A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA2DB66020610A4D0063E9A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2DB66120610A4D0063E9A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA2DB66520610A4D0063E9A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2DB66620610A4D0063E9A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2DB68120610A4E0063E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA2DB68220610A4E0063E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2DB68420610A4E0063E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CFEF47F839C76138BE3604 /* Pods-NLPedometerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NLPedometerDemo/NLPedometerDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yj_zhang/Desktop/测试代码/NLPedometerDemo/NLPedometerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = NLPedometerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA2DB68520610A4E0063E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A287B1914A25200972FDE6CB /* Pods-NLPedometerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NLPedometerDemo/NLPedometerDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yj_zhang/Desktop/测试代码/NLPedometerDemo/NLPedometerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = NLPedometerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA2DB68720610A4E0063E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				INFOPLIST_FILE = NLPedometerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLPedometerDemo.app/NLPedometerDemo";
+			};
+			name = Debug;
+		};
+		CA2DB68820610A4E0063E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				INFOPLIST_FILE = NLPedometerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLPedometerDemo.app/NLPedometerDemo";
+			};
+			name = Release;
+		};
+		CA2DB68A20610A4E0063E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				INFOPLIST_FILE = NLPedometerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NLPedometerDemo;
+			};
+			name = Debug;
+		};
+		CA2DB68B20610A4E0063E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR5V7NS6LG;
+				INFOPLIST_FILE = NLPedometerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.NLPedometerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NLPedometerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA2DB65220610A4D0063E9A1 /* Build configuration list for PBXProject "NLPedometerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2DB68120610A4E0063E9A1 /* Debug */,
+				CA2DB68220610A4E0063E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2DB68320610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2DB68420610A4E0063E9A1 /* Debug */,
+				CA2DB68520610A4E0063E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2DB68620610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2DB68720610A4E0063E9A1 /* Debug */,
+				CA2DB68820610A4E0063E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2DB68920610A4E0063E9A1 /* Build configuration list for PBXNativeTarget "NLPedometerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2DB68A20610A4E0063E9A1 /* Debug */,
+				CA2DB68B20610A4E0063E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA2DB64F20610A4D0063E9A1 /* Project object */;
+}
